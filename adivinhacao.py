@@ -25,3 +25,4 @@ else:
         print("Você errou! Seu chute foi menor que o número secreto")
 
 print("Fim do jogo!")
+
