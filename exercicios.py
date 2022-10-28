@@ -17,14 +17,17 @@ print(idade1 + idade2)
 nome = "Nico"
 sobrenome = "Steppat"
 print(nome + sobrenome)
+print("*******************************************************")
 
 nome = "Nico"
 sobrenome = "Steppat"
 print(nome, sobrenome)
+print("*******************************************************")
 
 nome = "Nico"
 sobrenome = "Steppat"
 print(nome, sobrenome, sep="_")
+print("*******************************************************")
 
 idade_str = input("Digite sua idade: ")
 idade = int(idade_str)
@@ -36,6 +39,7 @@ else:
         print("Você é uma criança.")
     elif (idade >= 12):
         print("Você é um adolescente.")
+print("*******************************************************")
 
 idade_str = input("Digite sua idade: ")
 idade = int(idade_str)
@@ -43,6 +47,8 @@ idade = int(idade_str)
 maior_idade = idade > 18
 crianca     = idade < 12
 adolescente = idade > 12
+
+print("*******************************************************")
 
 usuario = input("Informe o usuário do sistema!")
 
@@ -55,9 +61,22 @@ elif(usuario == "Nico"):
 else:
     print("Usuário não identificado!")
 
+print("*******************************************************")
 contador = 1
 while(contador <= 10):
     print(contador)
     contador = contador + 2
     if(contador == 5):
         contador = contador + 2
+
+print("*******************************************************")
+
+dia_ini = 24
+dia_fim = 28
+mes = "fevereiro"
+ano = 2017
+
+print("Em {} o Carnaval acontece em {} do dia {} até o dia {}".format(ano, mes, dia_ini, dia_fim))
+
+print("*******************************************************")
+
