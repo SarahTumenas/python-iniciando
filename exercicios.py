@@ -79,4 +79,23 @@ ano = 2017
 print("Em {} o Carnaval acontece em {} do dia {} até o dia {}".format(ano, mes, dia_ini, dia_fim))
 
 print("*******************************************************")
+contador = 1
+while(contador <= 10):
+    print(contador)
+    contador = contador + 1
+print("xxxx")
+for contador in range(1, 11):
+    print(contador)
+
+print("*******************************************************")
+contador = 1
+while(contador <= 10):
+    print(contador)
+    contador = contador + 3
+print("xxxx")
+for contador in range(1, 11, 3):
+    print(contador)
+
+
+print("*******************************************************")
 
