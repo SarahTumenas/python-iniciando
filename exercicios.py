@@ -1,3 +1,8 @@
+import random
+
+
+
+
 minha_idade = 26
 idade_namorado = 25
 if(minha_idade == idade_namorado):
@@ -123,5 +128,23 @@ nome = 'Matheus'
 print(f'Meu nome é {nome}')
 print(f'Meu nome é {nome.lower()}')
 
+print("*******************************************************")
+
+
+
+aleatorio = random.randrange(10)
+print(aleatorio)
+print("*******************************************************")
+
+sorteado = random.randrange(1, 4)
+
+print(sorteado)
+
+if sorteado == 1:
+    print("Paulo")
+elif sorteado == 2:
+    print("Juliana")
+else:
+    print("Tamires")
 print("*******************************************************")
 
