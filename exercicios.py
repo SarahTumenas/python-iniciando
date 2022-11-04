@@ -147,4 +147,10 @@ elif sorteado == 2:
 else:
     print("Tamires")
 print("*******************************************************")
+numero1= random.seed(100)
+print(numero1)
+numero2 = random.randrange(1, 101)
+print(numero2)
+
+print("*******************************************************")
 
