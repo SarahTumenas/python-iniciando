@@ -154,3 +154,7 @@ print(numero2)
 
 print("*******************************************************")
 
+pontos_perdidos = abs(21 - 32) / 3     #dividindo por três
+print(pontos_perdidos)
+print("*******************************************************")
+
