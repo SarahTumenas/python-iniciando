@@ -180,3 +180,21 @@ print("{} e {}".format(b, a))
 
 print("*******************************************************")
 
+nome = "clarice"
+nome.capitalize()
+print(nome) ## continua como clarice e não Clarice como ela esperava
+
+nome = "clarice"
+nome = nome.capitalize()
+print(nome)
+
+palavra = "alura"
+palavra.upper()
+print(palavra) #qual é o resultado?
+
+palavra1 = "alura"
+palavra1 = palavra.upper()
+print(palavra1) #qual é o resultado?
+
+print("*******************************************************")
+
