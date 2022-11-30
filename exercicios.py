@@ -253,4 +253,19 @@ else:
 
 print("*******************************************************")
 
+lista = [11122233344, 22233344455, 33344455566]
+print(lista)
+lista.append(11122233344) #funciona!
+print(lista)
+
+colecao = {11122233344, 22233344455, 33344455566}
+print(colecao)
+colecao.add(44455566677) #vai adicionar pois não existe ainda
+print(colecao)
+
+for cpf in colecao:
+     print(cpf)
+
+print("*******************************************************")
+
 
