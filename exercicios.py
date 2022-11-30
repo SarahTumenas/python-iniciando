@@ -230,6 +230,27 @@ campeao = colocacao[0]
 
 print(' O grande campeão do torneio é o time ' + campeao)
 #Resultado:  O grande campeão do torneio é o time Bruxos como Ronaldinho
+
+print("*******************************************************")
+valores = [ 0, 0, 0, 1, 2, 3, 4]
+print(valores.count(0))
+
+letras_acertadas = ['_','_','_','_','_','_']
+letras_faltando = str(letras_acertadas.count('_'))
+print( 'Ainda faltam acertar {} letras'.format(letras_faltando))
+
+frutas = ['Banana', 'Morango', 'Maçã', 'Uva', 'Maçã', 'Uva']
+print(frutas.index('Uva'))
+
+frutas = ['Banana', 'Morango', 'Maçã', 'Uva']
+
+
+fruta_buscada = 'Melancia'
+if fruta_buscada in frutas:
+    print(frutas.index(fruta_buscada))
+else:
+    print('Desculpe, a {} não está na lista frutas'.format( fruta_buscada))
+
 print("*******************************************************")
 
 
