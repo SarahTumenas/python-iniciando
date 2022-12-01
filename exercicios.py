@@ -296,4 +296,14 @@ print(passos)
 
 print("*******************************************************")
 
+frutas = ["maçã", "banana", "laranja", "melancia"]
+
+#lista = []
+#for fruta in frutas:
+#    lista.append(fruta.upper())
+lista = [fruta.upper() for fruta in frutas]
+print(lista)
+
+print("*******************************************************")
+
 
