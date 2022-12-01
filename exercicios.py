@@ -337,7 +337,12 @@ with open("palavras.txt") as arquivo:
     for linha in arquivo:
         print(linha)
 print("*******************************************************")
+# declara a função
+def imprime_mensagem():
+    print("Olá")
 
+# chama a função
+imprime_mensagem()
 
 print("*******************************************************")
 
