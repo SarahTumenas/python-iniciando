@@ -329,5 +329,13 @@ conteudo = arquivo.read()
 print(conteudo)
 
 print("*******************************************************")
+logo = open('palavras.txt', 'r')
+data = logo.read()
+logo.close()
+
+with open("palavras.txt") as arquivo:
+    for linha in arquivo:
+        print(linha)
+print("*******************************************************")
 
 
