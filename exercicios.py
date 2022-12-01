@@ -311,7 +311,22 @@ quadrados = [n*n for n in inteiros]
 print(quadrados)
 
 print("*******************************************************")
+arquivo = open('pessoas.txt', 'r')
+linha = arquivo.readline()
+print(linha)
 
+
+arquivo1 = open('palavras.txt','r')
+linhas = arquivo1.readline()
+print(linhas)
+linhas = arquivo1.readline()
+print(linhas)
+
+arquivo = open('palavras.txt','r')
+conteudo = arquivo.read()
+print(conteudo)
+conteudo = arquivo.read()
+print(conteudo)
 
 print("*******************************************************")
 
